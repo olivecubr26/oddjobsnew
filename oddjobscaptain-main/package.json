@@ -1,0 +1,19 @@
+{
+  "name": "oddjobscaptain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Odd Jobs Captain static website",
+  "scripts": {
+    "build": "node build.js",
+    "postinstall": "npm run build",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.156.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

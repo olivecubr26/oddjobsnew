@@ -1,0 +1,16 @@
+# Cloudflare Workers Builds runs: npx wrangler deploy
+# This is a Workers Static Assets project, NOT a Pages project.
+# If the Worker name in the Cloudflare dashboard is different, change only
+# the `name` value below to match it.
+name = "oddjobscaptain"
+compatibility_date = "2026-11-02"
+
+# Wrangler runs this before uploading assets, so dist/ exists even when the
+# Cloudflare dashboard's optional build command is left empty.
+[build]
+command = "npm run build"
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
