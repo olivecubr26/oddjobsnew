@@ -799,7 +799,7 @@ section{position:relative}
     repeating-linear-gradient(90deg,rgba(246,242,231,.18) 0 1px,transparent 1px 24px),
     repeating-linear-gradient(90deg,rgba(246,242,231,.4) 0 1px,transparent 1px 120px)}
 
-/* ---- Official City & Guilds / NVQ Level 2 credential badge ---- */
+/* ---- Official City & Guilds credential badge ---- */
 .cg-badge{
   position:absolute;z-index:4;
   top:clamp(104px,10vw,132px);

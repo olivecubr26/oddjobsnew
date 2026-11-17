@@ -93,7 +93,7 @@ To use real business photos, just overwrite a JPG/PNG with the **same filename**
 
 ## Hero credential badge
 
-The rotating badge on `index.html` is an inline SVG, so the wording and rings stay crisp at any size. The ring wording is exactly `City & Guilds Certificate & Training to NVQ Level 2.`: the first part sits on the upright top arc and `NVQ Level 2.` sits on an upright bottom arc, so the ending is not lost on an upside-down circle. A small static `NVQ Level 2` line inside the badge repeats the qualification where it is always readable. Both arc texts spin together via the `.seal-ring` CSS animation; the centre logo and inner level line stay still. The wrapper has an `aria-label` with the exact wording for screen readers, and the animation is disabled for `prefers-reduced-motion`. It is hidden below 740px so it doesn't overlap the centred hero headline; the trust row still shows the City & Guilds credential on small screens.
+The credential badge on `index.html` and `about.html` shows the official City & Guilds logo with a `City & Guilds` caption underneath. The qualification is stated as City & Guilds only (no NVQ level). The wrapper has an `aria-label` with the same wording for screen readers. It is hidden below 740px so it doesn't overlap the centred hero headline; the trust row still shows the City & Guilds credential on small screens.
 
 ## Before publishing
 
